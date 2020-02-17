@@ -1,0 +1,354 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .bigger-section{
+    height: 100%;
+  }
+
+  .about-section .card{
+    height: 260px;
+  }
+
+  .proposal-steps h1{
+    font-size: 6rem;
+  }
+  section{
+    height: calc(100% - 100px);
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  section{
+    height: 100vh;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header.masthead{
+    height: 100vh;
+  }
+  section{
+    height: calc(100% - 100px);
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  section{
+    height: 100%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  section{
+    height: 160vh;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .proposal-steps h1{
+    font-size: 3rem;
+  }
+  header.masthead{
+    height: 160vh;
+  }
+  section{
+    height: 190vh;
+  }
+  .bigger-section{
+    height: 320vh;
+  }
+  .about-section .card{
+    height: 200px;
+  }
+}
+
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+  /* line-height: 0.2rem; */
+  /* text-transform: uppercase; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.bigger-p{
+  font-size: 1.7rem;
+}
+
+.header-text{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.about-section{
+  background-color: #168A7E;
+  color: #fff;
+}
+
+#carouselExampleIndicators .card{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 6px;
+}
+
+#carouselExampleIndicators .card-body{
+  height: 170px;
+}
+
+#carouselExampleIndicators .card:hover{
+  cursor: pointer;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+}
+
+.big-section{
+  height: 90vh;
+}
+
+.little-section{
+  height: 64vh;
+}
+
+.forest-bg{
+  background: url("https://d3dhayegfge90.cloudfront.net/landing/bRainforest.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+ 
+.forest-bg h1, .forest-bg p{ 
+  color: #ffffff;
+}
+
+.text-wrong{
+  background-color: #F24162;
+  color: #fff;
+}
+
+.text-warning-bg{
+  background-color: #F2E205;
+  
+}
+
+.text-right-bg{
+  background-color: #007D00;
+}
+
+
+/* .card-text{
+  font-size: 1.12rem;
+  color: #168C55;
+} */
+
+.card-header-text{
+  font-size: 1.10rem;
+  color: #168C55;
+}
+
+.navbar-custom{
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: 'Muli', 'sans-serif';
+}
+
+.navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+  
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23168C55' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23168C55' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.heading{
+    color: #007D00 !important;
+}
+
+.bg-heading{
+    background-color: #007D00 !important;
+    color: #fff !important;
+}
+.bg-heading:hover{
+  background-color: #008A00 !important;
+}
+header.masthead {
+  /* padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px); */
+  background:url("https://d3dhayegfge90.cloudfront.net/landing/IMG_9613.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+.navbar-toggler-btn{
+  background-color: #dee2e6;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.button-big-picture{
+  background: #007D00;
+  text-shadow: 0 1px 3px rgba(36,180,126,.4);
+  -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  /* border-radius: 25rem; */
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-decoration: none;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+  font-family: 'Poppins', sans-serif;
+
+}.button-big-picture:hover{
+  background-color:#168c55;
+  color: #fff;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+/* .support-section{
+  background-color: #168c55;
+  color: #fff;
+} */
+
+.badge-big-picture{
+  border-radius: 10rem;
+  padding: 0.2rem;
+  color: #fff;
+  background-color: rgba(22 , 140, 85, .3);
+  font-family: 'Poppins', sans-serif;
+}
+.badge-big-picture:hover{
+  color: #168c55;
+}
+
+.arara-bg{
+  background: url('https://humboldfiles-images.s3.amazonaws.com/arara.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+.steps{
+  background:url("https://d3dhayegfge90.cloudfront.net/steps.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.proposal-steps .h1{
+  color: #168C55;
+  border-bottom: 0.2rem solid #dee2e6;
+}
+
+.proposal-images img{
+  height: 12rem;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+}
+/* .proposal-steps .display-1:after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #007D00;
+  position: absolute;
+  bottom: -4px;
+} */
+
+.proposal-steps p{
+  font-weight: 500;
+}
